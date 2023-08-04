@@ -8,6 +8,8 @@ import starzero from '../../assets/starzerolandingpage.png';
 import tirukkural from '../../assets/Tirukkural.png';
 import uptrack from '../../assets/uptrackbanner.png';
 import tickdot from '../../assets/tickdot.png';
+import ecoline from '../../assets/ecoline.png';
+
 
 
 
@@ -77,6 +79,13 @@ export const projectdatajson = [
         thumbnail: uptrack,
         title:'B2B Site Banner',
         href:'https://www.behance.net/gallery/175971783/payment-gateway-website-home-banner',
+        target:"blank"
+    },
+    {
+        id:11,
+        thumbnail: ecoline,
+        title:'Ecoline Clothing - Redesign',
+        href:'https://www.behance.net/gallery/176894587/Ecoline-Clothing-Website-Redesign',
         target:"blank"
     },
    
