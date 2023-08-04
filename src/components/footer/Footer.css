@@ -1,0 +1,14 @@
+.ft-card {
+    display: flex;
+    padding: 10px;
+    background-color: #D9D9D9;
+    box-shadow: none;
+    margin-top: 0px;
+    margin-left: 0px;
+    column-gap: 30px;
+    border-radius: 50px 50px 50px 50px;
+}
+.ft-messageicon{
+    width: 60px;
+    height: 60px;
+}
