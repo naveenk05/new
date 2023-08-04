@@ -37,7 +37,7 @@ function Projects() {
               <IonRow>
                 {projectdatajson.map((data, key) => {
                   return (
-                    <IonCol sizeLg='4' sizeXs='6' className={`card-containers ${isHovered ? 'hovered' : ''}`}
+                    <IonCol sizeLg='6' sizeXs='12' className={`card-containers ${isHovered ? 'hovered' : ''}`}
                       onMouseEnter={handleMouseEnter}
                       onMouseLeave={handleMouseLeave}>
                       <IonCard className='pr-card-style' key={key} target='blank' href={data.href}>
