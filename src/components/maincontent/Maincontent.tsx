@@ -22,7 +22,7 @@ function Maincontent() {
                     <IonRow>
                         <IonCol sizeXl='6' sizeLg="6" className='mt-3'>
                             <button className='mc-hirebtn' type='button'>Hire me</button>&nbsp;&nbsp;
-                            <a href={`${window.location.origin}/naveen_product-designer-resume01.pdf`} target='blank'>
+                            <a href={`${window.location.origin}/Naveen_resume_designer.pdf`} target='blank'>
                                 <button className='mc-getcvbtn' type='button'>Get CV</button></a>
                         </IonCol>
                     </IonRow>
