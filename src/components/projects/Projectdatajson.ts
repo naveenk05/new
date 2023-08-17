@@ -9,8 +9,7 @@ import tirukkural from '../../assets/Tirukkural.png';
 import uptrack from '../../assets/uptrackbanner.png';
 import tickdot from '../../assets/tickdot.png';
 import ecoline from '../../assets/ecoline.png';
-
-
+import Inventwebsite from '../../assets/Inventitsolution.png';
 
 
 
@@ -86,6 +85,13 @@ export const projectdatajson = [
         thumbnail: ecoline,
         title:'Ecoline Clothing - Redesign',
         href:'https://www.behance.net/gallery/176894587/Ecoline-Clothing-Website-Redesign',
+        target:"blank"
+    },
+    {
+        id:12,
+        thumbnail: Inventwebsite,
+        title:'IT Solution Landing Page',
+        href:'https://www.behance.net/gallery/177878433/Invent-IT-Solution-Landing-page',
         target:"blank"
     },
    
