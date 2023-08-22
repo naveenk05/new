@@ -30,7 +30,7 @@ function Maincontent() {
                         <IonCol sizeXl='6' sizeLg='6' sizeXs='8'>
                             <IonCard className='mc_card '>
                                 <a href='https://www.behance.net/navynaveen' target='blank'><IonImg className='float-on-hover' src={behance}></IonImg></a>
-                                <a href='https://www.instagram.com/n_a_v_e_e_n.k/' target='blank'><IonImg className='float-on-hover' src={instagram}></IonImg></a>
+                                <a href='https://www.instagram.com/naveen_ui_craft/' target='blank'><IonImg className='float-on-hover' src={instagram}></IonImg></a>
                                 <a href='https://dribbble.com/Nivan' target='blank'><IonImg className='float-on-hover' src={dribbble}></IonImg></a>
                                 <a href='https://www.linkedin.com/in/neevank/' target='blank'><IonImg className='float-on-hover' src={linkedin}></IonImg></a>
                             </IonCard>
