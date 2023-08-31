@@ -7,6 +7,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import { projectdatajson } from './Projectdatajson';
+import { card } from 'ionicons/icons';
 
 
 function Projects() {
@@ -18,6 +19,11 @@ function Projects() {
   const handleMouseLeave = () => {
     setIsHovered(false);
   };
+
+  const handleCardClick = (redirectTo: string) => () => {
+    window.location.href = redirectTo; // Redirect to the specified URL
+  };
+
   return (
     <IonGrid className='mt-5'>
       <IonRow>
@@ -40,9 +46,8 @@ function Projects() {
                     <IonCol sizeLg='6' sizeXs='12' className={`card-containers ${isHovered ? 'hovered' : ''}`}
                       onMouseEnter={handleMouseEnter}
                       onMouseLeave={handleMouseLeave}>
-                      <IonCard className='pr-card-style' key={key} target='blank' href={data.href}>
+                      <IonCard className='pr-card-style cards' key={key} target='_blank' onClick={handleCardClick(data.href)} rel="noopener noreferrer">
                         <IonImg  src={data.thumbnail}></IonImg>
-                        {/* <IonText className='pr-card-title'>{data.title}</IonText> */}
 
                         <IonCardContent>
                           {isHovered &&

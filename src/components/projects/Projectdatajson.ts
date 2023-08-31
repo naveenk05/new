@@ -10,6 +10,9 @@ import uptrack from '../../assets/uptrackbanner.png';
 import tickdot from '../../assets/tickdot.png';
 import ecoline from '../../assets/ecoline.png';
 import Inventwebsite from '../../assets/Inventitsolution.png';
+import kurali from '../../assets/kurali coverimage.png';
+import victorydraft from '../../assets/victory coverimage.png';
+
 
 
 
@@ -29,66 +32,82 @@ export const projectdatajson = [
         target:"blank"
 
 
-    },{
+    },
+    {
         id:3,
+        thumbnail:kurali,
+        title:'Kurali - Thirukkural App Redesign',
+        href:'https://www.behance.net/gallery/178906239/Kurali-Thirukkural-App-Redesign?',
+        target:"blank"
+    },
+    {
+        id:4,
+        thumbnail:victorydraft,
+        title:'Victory Draft - A Fantasy Sport App',
+        href:'https://www.behance.net/gallery/178908695/Victory-Draft-A-Fantasy-Sport-App?',
+        target:"blank"
+    },
+    
+    {
+        id:5,
         thumbnail:readerscafe,
         title:'Readers Cafe Website- Landing Page',
         href:'https://www.behance.net/gallery/176387761/Coffee-Shop-Landing-Page',
         target:"blank"
 
     },{
-        id:4,
+        id:6,
         thumbnail:portfolio,
         title:'Own Portfolio',
         href:'https://www.behance.net/gallery/158121707/uiux-designer-portfolio',
         target:"blank"
     },{
-        id:5,
+        id:7,
         thumbnail: fitnessapp,
         title:'StayFit App',
         href:'https://www.behance.net/gallery/161898145/Fitness-App-(Stay-Fit)',
         target:"blank"
     },
     {
-        id:6,
+        id:8,
         thumbnail: starzero,
         title:'CO2E Website Landing Page',
         href:'https://www.behance.net/gallery/175764677/STARZero-Landing-Page',
         target:"blank"
     },{
-        id:7,
+        id:9,
         thumbnail: dofylandingpage,
         title:'Dofy Landing Page',
         href:'https://www.behance.net/gallery/165337883/Mobile-selling-SiteDOFY',
         target:"blank"
     },{
-        id:8,
+        id:10,
         thumbnail: cateringlandingpage,
         title:'mani Catering Website Landingpage',
         href:'https://www.behance.net/gallery/160308141/Wedding-Catering-Website',
         target:"blank"
     },{
-        id:9,
+        id:11,
         thumbnail: fusiontech,
         title:'B2B Website Landing page',
         href:'https://www.behance.net/gallery/174903775/FusionTech-Landing-Page',
         target:"blank"
     },{
-        id:10,
+        id:12,
         thumbnail: uptrack,
         title:'B2B Site Banner',
         href:'https://www.behance.net/gallery/175971783/payment-gateway-website-home-banner',
         target:"blank"
     },
     {
-        id:11,
+        id:13,
         thumbnail: ecoline,
         title:'Ecoline Clothing - Redesign',
         href:'https://www.behance.net/gallery/176894587/Ecoline-Clothing-Website-Redesign',
         target:"blank"
     },
     {
-        id:12,
+        id:14,
         thumbnail: Inventwebsite,
         title:'IT Solution Landing Page',
         href:'https://www.behance.net/gallery/177878433/Invent-IT-Solution-Landing-page',
