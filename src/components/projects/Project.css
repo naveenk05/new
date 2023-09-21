@@ -64,6 +64,9 @@
     display: none;
     /* Initially hide the name paragraph */
 }
+.pj-title-link{
+    font-weight: 600;
+}
 .pj-title-link:hover{
     color: #553aeb ;
 }
