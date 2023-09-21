@@ -12,8 +12,7 @@ import ecoline from '../../assets/ecoline.png';
 import Inventwebsite from '../../assets/Inventitsolution.png';
 import kurali from '../../assets/kurali coverimage.png';
 import victorydraft from '../../assets/victory coverimage.png';
-
-
+import retimer from '../../assets/retimer coverimage.png';
 
 
 export const projectdatajson = [
@@ -111,6 +110,13 @@ export const projectdatajson = [
         thumbnail: Inventwebsite,
         title:'IT Solution Landing Page',
         href:'https://www.behance.net/gallery/177878433/Invent-IT-Solution-Landing-page',
+        target:"blank"
+    },
+    {
+        id:15,
+        thumbnail: retimer,
+        title:'Re-Timer webiste Landing Page',
+        href:'https://dribbble.com/shots/22533750-Re-Timer-Landing-Page',
         target:"blank"
     },
    
