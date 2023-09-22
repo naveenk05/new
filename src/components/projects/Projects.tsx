@@ -1,13 +1,11 @@
-import React, { useState } from 'react'
+import { useRef, useState } from 'react'
 import './Project.css';
-import { IonCard, IonCardContent, IonCol, IonGrid, IonImg, IonRoute, IonRow, IonText } from '@ionic/react';
-import { Swiper, SwiperSlide, useSwiper } from 'swiper/react';
+import { IonCard, IonCardContent, IonCol, IonGrid, IonImg, IonRow, IonText } from '@ionic/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import { projectdatajson } from './Projectdatajson';
-import { card } from 'ionicons/icons';
 
 
 function Projects() {
@@ -25,41 +23,42 @@ function Projects() {
   };
 
   return (
-    <IonGrid className='mt-5'>
-      <IonRow>
-        <IonCol sizeXl='2' sizeLg='2' sizeXs='0'></IonCol>
-        <IonCol sizeXl='8' sizeLg='8' sizeXs='12'>
-          <IonRow>
-            <IonCol className='text-center' size='12'>
-              <IonText className='pr-Title'>PROJECTS</IonText><br />
-              <IonText className='pr-subtitle'>Latest Projects</IonText>
-            </IonCol>
-            <IonCol sizeXl='12' sizeLg='12' sizeXs='12'>
-              {/* <Swiper
+    <div id='project-component'>
+      <IonGrid className='mt-5'>
+        <IonRow>
+          <IonCol sizeXl='2' sizeLg='2' sizeXs='0'></IonCol>
+          <IonCol sizeXl='8' sizeLg='8' sizeXs='12'>
+            <IonRow>
+              <IonCol className='text-center' size='12'>
+                <IonText className='pr-Title'>PROJECTS</IonText><br />
+                <IonText className='pr-subtitle'>Latest Projects</IonText>
+              </IonCol>
+              <IonCol sizeXl='12' sizeLg='12' sizeXs='12'>
+                {/* <Swiper
                 pagination={{ clickable: true }}
                 spaceBetween={20}
                 slidesPerView={2.5}
               > */}
-              <IonRow>
-                {projectdatajson.map((data, key) => {
-                  return (
-                    <IonCol sizeLg='6' sizeXs='12' className={`card-containers ${isHovered ? 'hovered' : ''}`}
-                      onMouseEnter={handleMouseEnter}
-                      onMouseLeave={handleMouseLeave}>
-                      <IonCard className='pr-card-style cards' key={key} target='_blank' onClick={handleCardClick(data.href)} rel="noopener noreferrer">
-                        <IonImg  src={data.thumbnail}></IonImg>
+                <IonRow>
+                  {projectdatajson.map((data, key) => {
+                    return (
+                      <IonCol sizeLg='6' sizeXs='12' className={`card-containers ${isHovered ? 'hovered' : ''}`}
+                        onMouseEnter={handleMouseEnter}
+                        onMouseLeave={handleMouseLeave}>
+                        <IonCard className='pr-card-style cards' key={key} target='_blank' onClick={handleCardClick(data.href)} rel="noopener noreferrer">
+                          <IonImg src={data.thumbnail}></IonImg>
 
-                        <IonCardContent>
-                          {isHovered &&
-                            <h3 className='pj-title-link'>{data.title}</h3>
-                          }
-                        </IonCardContent>
-                      </IonCard>
-                    </IonCol>
-                  )
-                })}
-              </IonRow>
-              {/* {projectdatajson.map((data, key) => {
+                          <IonCardContent>
+                            {isHovered &&
+                              <h3 className='pj-title-link'>{data.title}</h3>
+                            }
+                          </IonCardContent>
+                        </IonCard>
+                      </IonCol>
+                    )
+                  })}
+                </IonRow>
+                {/* {projectdatajson.map((data, key) => {
                   return (
                     <SwiperSlide  key={key}>
                       <IonCard className='pr-card-style' key={key} href={data.href}>
@@ -70,13 +69,14 @@ function Projects() {
                     
                   )
                 })} */}
-              {/* </Swiper> */}
-            </IonCol>
-          </IonRow>
-        </IonCol>
-        <IonCol sizeLg='2' sizeXs='0'></IonCol>
-      </IonRow>
-    </IonGrid>
+                {/* </Swiper> */}
+              </IonCol>
+            </IonRow>
+          </IonCol>
+          <IonCol sizeLg='2' sizeXs='0'></IonCol>
+        </IonRow>
+      </IonGrid>
+    </div>
   )
 }
 

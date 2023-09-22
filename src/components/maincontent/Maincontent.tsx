@@ -1,4 +1,4 @@
-import { IonButton, IonCard, IonCol, IonContent, IonGrid, IonIcon, IonImg, IonPage, IonRow, IonText, IonTitle } from '@ionic/react'
+import { IonCard, IonCol, IonGrid, IonImg, IonRow, IonText } from '@ionic/react'
 import React, { useState } from 'react'
 import './Maincontent.css';
 
@@ -9,17 +9,24 @@ import dribbble from '../../assets/dribbble.png';
 import linkedin from '../../assets/linkedin.png';
 import PopoverComponent from '../popup/PopUp';
 
-
 function Maincontent() {
     const [popoverState, setPopoverState] = useState({
         isOpen: false,
         event: null, // Change undefined to null
     });
 
+    const scrollToProjectComponent = () => {
+        const projects = document.getElementById('project-component');
+        if (projects) {
+            projects.scrollIntoView({ behavior: 'smooth' })
+        }
+    }
+
+
     const openPopover = (e: React.MouseEvent) => {
         setPopoverState({
             isOpen: true,
-            event:null,
+            event: null,
         });
     };
 
@@ -41,7 +48,7 @@ function Maincontent() {
                     <IonText>Experienced product and visual interface designer with expertise in UI/UX, product development, and responsive web design.</IonText><br />
                     <IonRow>
                         <IonCol sizeXl='6' sizeLg="6" className='mt-3'>
-                            <button className='mc-hirebtn' type='button' onClick={openPopover}>Hire me</button>&nbsp;&nbsp;
+                            <button className='mc-hirebtn' type='button' onClick={scrollToProjectComponent} >Projects</button> &nbsp;&nbsp;
                             <a href={`${window.location.origin}/Naveen_resume_designer.pdf`} target='blank'>
                                 <button className='mc-getcvbtn' type='button'>Get CV</button></a>
                         </IonCol>

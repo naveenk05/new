@@ -1,4 +1,4 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonContent, IonPage } from '@ionic/react';
 import './Home.css';
 import Maincontent from '../components/maincontent/Maincontent';
 import WhatIdo from '../components/whatido/WhatIdo';
@@ -8,20 +8,21 @@ import Projects from '../components/projects/Projects';
 import Contactus from '../components/contactus/Contactus';
 import Footer from '../components/footer/Footer';
 
+
 const Home: React.FC = () => {
- 
+
   return (
 
     <IonPage >
-     <IonContent>
-      <Maincontent/>
-      <WhatIdo/>
-      <Qualification/>
-      <Expertise/>
-      <Projects/>
-      <Contactus/>
-      <Footer/>
-     </IonContent>
+      <IonContent>
+        <Maincontent />
+        <WhatIdo />
+        <Qualification />
+        <Expertise />
+        <Projects />
+        <Contactus />
+        <Footer />
+      </IonContent>
     </IonPage>
 
   );
