@@ -96,6 +96,9 @@
     -webkit-transform: translateY(-8px);
     transform: translateY(-8px);
   }
+  .mc_content{
+    line-height: 30px;
+  }
 
   @media (max-width:600px){
     .mc-cardbg {

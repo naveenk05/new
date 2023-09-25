@@ -45,11 +45,11 @@ function Maincontent() {
                     <IonText className='mc-text1'>Welcome to my sites</IonText><br />
                     <IonText className='mc-text2'>Hi! i’m Naveen<br />
                         UI UX <text className='mc-text3'>Designer</text></IonText><br />
-                    <IonText>Experienced product and visual interface designer with expertise in UI/UX, product development, and responsive web design.</IonText><br />
+                    <IonText className='mc_content'>Experienced product and visual interface designer with expertise in UI/UX, product development, and responsive web design.</IonText><br />
                     <IonRow>
                         <IonCol sizeXl='6' sizeLg="6" className='mt-3'>
                             <button className='mc-hirebtn' type='button' onClick={scrollToProjectComponent} >Projects</button> &nbsp;&nbsp;
-                            <a href={`${window.location.origin}/Naveen_resume_designer.pdf`} target='blank'>
+                            <a href={`${window.location.origin}/naveen_resume.pdf`} target='blank'>
                                 <button className='mc-getcvbtn' type='button'>Get CV</button></a>
                         </IonCol>
                         <PopoverComponent
