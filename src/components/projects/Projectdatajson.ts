@@ -15,6 +15,7 @@ import victorydraft from '../../assets/victory coverimage.png';
 import retimer from '../../assets/retimer coverimage.png';
 import mtmdcover from '../../assets/MTMD_portfolio_cover.png';
 import privaliteapp from '../../assets/Privalitecoverimage.png';
+import Weldingmachinedashboard from '../../assets/IOT welding machine cover.png';
 
 
 
@@ -134,6 +135,13 @@ export const projectdatajson = [
         thumbnail: privaliteapp,
         title:'Smart Glass Control App',
         href:"https://www.behance.net/gallery/188763647/Smart-Glass-Control-App-UIUX",
+        target:"blank"
+    },
+    {
+        id:18,
+        thumbnail:Weldingmachinedashboard,
+        title:'IOT Controlled Welding Machine Dashboard',
+        href:"https://dribbble.com/shots/23555971-IOT-Controlled-Welding-Machine-Dashboard",
         target:"blank"
     },
     
