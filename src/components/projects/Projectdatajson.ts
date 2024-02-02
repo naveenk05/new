@@ -16,6 +16,7 @@ import retimer from '../../assets/retimer coverimage.png';
 import mtmdcover from '../../assets/MTMD_portfolio_cover.png';
 import privaliteapp from '../../assets/Privalitecoverimage.png';
 import Weldingmachinedashboard from '../../assets/IOT welding machine cover.png';
+import Telematicsdashboard from '../../assets/telematiccoverimage.png';
 
 
 
@@ -142,6 +143,13 @@ export const projectdatajson = [
         thumbnail:Weldingmachinedashboard,
         title:'IOT Controlled Welding Machine Dashboard',
         href:"https://dribbble.com/shots/23555971-IOT-Controlled-Welding-Machine-Dashboard",
+        target:"blank"
+    },
+    {
+        id:19,
+        thumbnail:Telematicsdashboard,
+        title:'Smart Incident Monitoring System',
+        href:"https://dribbble.com/shots/23563885-Smart-Incident-Monitoring-System",
         target:"blank"
     },
     
