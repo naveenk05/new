@@ -17,19 +17,27 @@ import mtmdcover from '../../assets/MTMD_portfolio_cover.png';
 import privaliteapp from '../../assets/Privalitecoverimage.png';
 import Weldingmachinedashboard from '../../assets/IOT welding machine cover.png';
 import Telematicsdashboard from '../../assets/telematiccoverimage.png';
+import privalitewebsite from '../../assets/Privalite website cover.png';
 
 
 
 export const projectdatajson = [
     {
         id:1,
+        thumbnail:privalitewebsite,
+        title:'Mobile App Landing Page',
+        href:'https://dribbble.com/shots/24352772-Landing-page-page-for-mobile-app-Privalite',
+        target:"blank"
+    },
+    {
+        id:2,
         thumbnail:tickdot,
         title:'Task Management Application App',
         href:'https://www.behance.net/gallery/170001819/Task-Management-App',
         target:"blank"
     },
     {
-        id:2,
+        id:3,
         thumbnail:tirukkural,
         title:'Thirukkural App',
         href:'https://www.behance.net/gallery/157345555/Thirukurral-App',
@@ -38,14 +46,14 @@ export const projectdatajson = [
 
     },
     {
-        id:3,
+        id:4,
         thumbnail:kurali,
         title:'Kurali - Thirukkural App Redesign',
         href:'https://www.behance.net/gallery/178906239/Kurali-Thirukkural-App-Redesign?',
         target:"blank"
     },
     {
-        id:4,
+        id:5,
         thumbnail:victorydraft,
         title:'Victory Draft - A Fantasy Sport App',
         href:'https://www.behance.net/gallery/178908695/Victory-Draft-A-Fantasy-Sport-App?',
@@ -53,100 +61,100 @@ export const projectdatajson = [
     },
     
     {
-        id:5,
+        id:6,
         thumbnail:readerscafe,
         title:'Readers Cafe Website- Landing Page',
         href:'https://www.behance.net/gallery/176387761/Coffee-Shop-Landing-Page',
         target:"blank"
 
     },{
-        id:6,
+        id:7,
         thumbnail:portfolio,
         title:'Own Portfolio',
         href:'https://www.behance.net/gallery/158121707/uiux-designer-portfolio',
         target:"blank"
     },{
-        id:7,
+        id:8,
         thumbnail: fitnessapp,
         title:'StayFit App',
         href:'https://www.behance.net/gallery/161898145/Fitness-App-(Stay-Fit)',
         target:"blank"
     },
     {
-        id:8,
+        id:9,
         thumbnail: starzero,
         title:'CO2E Website Landing Page',
         href:'https://www.behance.net/gallery/175764677/STARZero-Landing-Page',
         target:"blank"
     },{
-        id:9,
+        id:10,
         thumbnail: dofylandingpage,
         title:'Dofy Landing Page',
         href:'https://www.behance.net/gallery/165337883/Mobile-selling-SiteDOFY',
         target:"blank"
     },{
-        id:10,
+        id:11,
         thumbnail: cateringlandingpage,
         title:'mani Catering Website Landingpage',
         href:'https://www.behance.net/gallery/160308141/Wedding-Catering-Website',
         target:"blank"
     },{
-        id:11,
+        id:12,
         thumbnail: fusiontech,
         title:'B2B Website Landing page',
         href:'https://www.behance.net/gallery/174903775/FusionTech-Landing-Page',
         target:"blank"
     },{
-        id:12,
+        id:13,
         thumbnail: uptrack,
         title:'B2B Site Banner',
         href:'https://www.behance.net/gallery/175971783/payment-gateway-website-home-banner',
         target:"blank"
     },
     {
-        id:13,
+        id:14,
         thumbnail: ecoline,
         title:'Ecoline Clothing - Redesign',
         href:'https://www.behance.net/gallery/176894587/Ecoline-Clothing-Website-Redesign',
         target:"blank"
     },
     {
-        id:14,
+        id:15,
         thumbnail: Inventwebsite,
         title:'IT Solution Landing Page',
         href:'https://www.behance.net/gallery/177878433/Invent-IT-Solution-Landing-page',
         target:"blank"
     },
     {
-        id:15,
+        id:16,
         thumbnail: retimer,
         title:'Re-Timer webiste Landing Page',
         href:'https://dribbble.com/shots/22533750-Re-Timer-Landing-Page',
         target:"blank"
     },
     {
-        id:16,
+        id:17,
         thumbnail: mtmdcover,
         title:'Motherson Medical Website case study',
         href:"https://www.behance.net/gallery/183554657/Health-medical-Product-Company-Website",
         target:"blank"
     },
      {
-        id:17,
+        id:18,
         thumbnail: privaliteapp,
         title:'Smart Glass Control App',
         href:"https://www.behance.net/gallery/188763647/Smart-Glass-Control-App-UIUX",
         target:"blank"
     },
     {
-        id:18,
+        id:19,
         thumbnail:Weldingmachinedashboard,
         title:'IOT Controlled Welding Machine Dashboard',
         href:"https://dribbble.com/shots/23555971-IOT-Controlled-Welding-Machine-Dashboard",
         target:"blank"
     },
     {
-        id:19,
+        id:20,
         thumbnail:Telematicsdashboard,
         title:'Smart Incident Monitoring System',
         href:"https://dribbble.com/shots/23563885-Smart-Incident-Monitoring-System",

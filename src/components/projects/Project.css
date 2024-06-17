@@ -71,7 +71,7 @@
     color: #553aeb ;
 }
 .cards {
-    transition: opacity 0.3s; /* Smooth transition for opacity change */
+    transition: opacity 0.5s; /* Smooth transition for opacity change */
     opacity: 0.6; /* Initial opacity */
   }
   .cards:hover {
