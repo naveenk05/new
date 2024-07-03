@@ -49,7 +49,7 @@ function Maincontent() {
                     <IonRow>
                         <IonCol sizeXl='6' sizeLg="6" className='mt-3'>
                             <button className='mc-hirebtn' type='button' onClick={scrollToProjectComponent} >Projects</button> &nbsp;&nbsp;
-                            <a href={`${window.location.origin}/Naveen_UX_Desginer Resume_01.pdf`} target='blank'>
+                            <a href={`${window.location.origin}/Naveen_UX_designer_resume.docx`} target='blank'>
                                 <button className='mc-getcvbtn' type='button'>Get CV</button></a>
                         </IonCol>
                         <PopoverComponent
